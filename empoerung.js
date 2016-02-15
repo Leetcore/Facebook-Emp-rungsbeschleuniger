@@ -4,6 +4,7 @@ var HateList = ["Wir ", "Die Regierung", "Das Volk", "WIR", "Die Bürger", "Die 
 
 var inputClass = "input"
 
+
 function insertHate(hateword, needParent) {
     if (needParent) {
         var InputTextfield = document.getElementsByClassName('activeHATE')
@@ -27,7 +28,7 @@ function insertHate(hateword, needParent) {
 
 function makeSelect(inputArray, inputBox, needParent) {
     // onactive=\"this.classList.toggle(\"activeHATE\")\"
-	var mySelect = "<select class='FHG' onmouseover='this.classList.add(\"activeHATE\")' onmouseout='this.classList.remove(\"activeHATE\")' onchange='insertHate(this.options[this.selectedIndex].text, " + needParent + ")'>"
+var mySelect = "<select class='FHG' onmouseover='this.classList.add(\"activeHATE\")' onmouseout='this.classList.remove(\"activeHATE\")' onchange='document.getElementsByClassName(\"input\")[0].value += this.options[this.selectedIndex].text + \" \"; document.getElementsByClassName(\"mentionsHidden\")[0].value += this.options[this.selectedIndex].text + \" \";'>"
 	for (var x = 0; x < inputArray.length; x++) {
 		mySelect += "<option>" + inputArray[x] + "</option>"
 	}
