@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook Empörungsbeschleuniger",
+  "description": "Lässt euch schneller ein Empörungspost auf Facebook veröffentlichen!",
+  "version": "1.0",
+  "content_scripts": [
+  {
+   "matches": ["https://*.facebook.com/*", "http://*.facebook.com/*"],
+   "js": ["empoerung.js"],
+   "run_at": "document_end"
+  }
+ ],
+  "permissions": [
+    "https://*.facebook.com/*", "http://*.facebook.com/*"
+  ]
+}
