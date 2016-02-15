@@ -1,6 +1,6 @@
 // Facebook Hasskommentar-Generator
 
-var HateList = ["Wir ", "Die Regierung", "Das Volk", "WIR", "Die Bürger", "Die mündigen Bürger", "Die einfachen Bürger", "Besorgte Bürger", "Unser Adolf", "Flüchtlinge", "Asylanten", "Asylant", "wird überhaupt", "werden überhaupt", "verschwören sich gegen", "verschwört sich gegen", "behandeln uns", "behandelt", "kämpfen gegen", "bekämpft", "unterdrücken", "verprassen", "verschwenden", "bräuchten", "verkaufen", "wie Dreck", "nicht ernst genommen", "uns", "das Volk", "Steuergelder", "99%", "Pfui!!!!", "Früher war alles besser", "Das wird man doch noch sagen dürfen!", "Unerträglich!!!!", "Peinlich!!!!", "Volksverräter!!!", "MERKEL MUSS WEG!!!", "NICHT ERNST GENOMMEN!", "Lügenpresse!!!"]
+var HateList = ["Wir ", "Die Regierung", "Das Volk", "WIR", "Die Bürger", "Die mündigen Bürger", "Die einfachen Bürger", "Besorgte Bürger", "Unser Adolf", "Flüchtlinge", "Asylanten", "Asylant", "wird überhaupt", "werden überhaupt", "verschwören sich gegen", "verschwört sich gegen", "behandeln uns", "behandelt", "kämpfen gegen", "bekämpft", "unterdrücken", "verprassen", "verschwenden", "bräuchten", "verkaufen", "wie Dreck", "nicht ernst genommen", "uns", "das Volk", "Dumm wie Brot!", "Steuergelder", "99%", "Pfui!!!!", "Früher war alles besser", "Das wird man doch noch sagen dürfen!", "Unerträglich!!!!", "Peinlich!!!!", "Volksverräter!!!", "Sie sollten sich schämen!!!!!!!", "Wenn ich die schon sehe!", "MERKEL MUSS WEG!!!", "Armes Deutschland!", "NICHT ERNST GENOMMEN!", "Lügenpresse!!!"]
 
 var inputClass = "input"
 
