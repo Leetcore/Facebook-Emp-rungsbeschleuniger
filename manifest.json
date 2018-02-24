@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
 
-  "name": "Facebook Empörungsbeschleuniger",
-  "description": "Lässt euch schneller ein Empörungspost auf Facebook veröffentlichen!",
+  "name": "Empörungsbeschleuniger",
+  "description": "Lässt euch schneller ein Empörungspost auf Facebook.com veröffentlichen!",
   "version": "1.2",
   "content_scripts": [
   {
